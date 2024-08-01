@@ -1,0 +1,116 @@
+.card-body img {
+  height: 20rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+
+.none {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+/* hero.css */
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 3vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  padding: 20px;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-body img {
+  width: 100%;
+}
+
+.none {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-body p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.search-buttons button {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  border-style: none;
+}
+
+select {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  background: lightgrey;
+  border-style: none;
+}
+
+.search-buttons button:hover {
+  background-color: black;
+  color: gray;
+  font-family: "Courier New", Courier, monospaces;
+  border-style: 1px solid;
+}
+
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

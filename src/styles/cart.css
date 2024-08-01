@@ -1,0 +1,36 @@
+.container {
+  width: 50%;
+  font-size: 4rem;
+}
+.cart-container {
+  margin: 40px;
+  padding: 40px;
+  box-shadow: 0px 0px 0px 0.1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+  /* gap: 50px; */
+}
+.cart-container img {
+  width: 250px;
+  border-radius: 20px;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  font-style: italic;
+  text-align: left;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.container li {
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 2vh;
+  background-color: black;
+  width: 100%;
+}
+.nav-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-options a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  padding: 10px 20px;
+}
+.nav-options a:hover {
+  background-color: gray;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
